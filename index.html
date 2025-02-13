@@ -1,0 +1,359 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>Than Soe The Analyst</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+	<style>
+		.alt {
+			-webkit-column-count: 2;
+			-moz-column-count: 2;
+			column-count: 2;
+			-webkit-column-gap: 20px;
+			-moz-column-gap: 20px;
+			column-gap: 20px;
+			list-style: none;
+			padding: 0;
+		}
+
+		.alt li {
+			break-inside: avoid;
+			margin-bottom: 10px;
+		}
+
+		.social-links {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+
+		.social-links>div {
+			display: flex;
+			margin-bottom: 0;
+		}
+
+		.social-links a {
+			color: #000000;
+			text-decoration: none;
+			margin: 0 10px;
+		}
+
+		.linked-image {
+			width: 50px;
+			height: 50px;
+		}
+
+		img {
+			border-radius: 10px;
+		}
+
+		.contact-section {
+			padding: 20px;
+		}
+
+		.contact-section h3 {
+			margin-bottom: 10px;
+		}
+
+		.icon-grid {
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+			grid-gap: 10px;
+		}
+
+		.linked-image {
+			/* Removed duplicate declaration */
+			transition: transform 0.2s ease;
+		}
+
+		.linked-image:hover {
+			transform: scale(1.1);
+		}
+
+		.contact-details {
+			list-style: none;
+			padding: 0;
+		}
+
+		.contact-details li {
+			margin-bottom: 15px;
+		}
+
+		.contact-details a {
+			color: inherit;
+			text-decoration: none;
+		}
+
+		.contact-details.icons {
+			list-style: none;
+			padding: 0;
+			display: flex;
+			gap: 10px;
+		}
+
+		.contact-details.icons a {
+			font-size: 20px;
+		}
+
+		.contact {
+			display: flexbox;
+			justify-content: space-between;
+			list-style: none;
+			padding: 0;
+		}
+
+		.contact li {
+			padding: 10px;
+		}
+
+		@media (max-width: 868px) {
+			.alt {
+				-webkit-column-count: 1;
+				-moz-column-count: 1;
+				column-count: 1;
+			}
+		}
+
+		@media (max-width: 768px) {
+			.contact {
+				flex-direction: column;
+			}
+		}
+
+		@media (max-width: 768px) {
+			.split {
+				flex-direction: column;
+			}
+
+			.icon-grid {
+				grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
+			}
+
+			.linked-image {
+				width: 40px;
+				height: 40px;
+			}
+		}
+	</style>
+</head>
+
+<body class="is-preload">
+
+	<!-- Sidebar -->
+	<section id="sidebar">
+		<div class="inner">
+			<nav>
+				<ul>
+					<li><a href="#intro">Welcome</a></li>
+					<li><a href="#one">Projects</a></li>
+					<li><a href="#two">What I do</a></li>
+					<li><a href="#three">Get in touch</a></li>
+				</ul>
+			</nav>
+		</div>
+	</section>
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Intro -->
+		<section id="intro" class="wrapper style1 fullscreen fade-up">
+			<div class="inner">
+				<h1>Than Soe Aung</h1>
+				<p style="text-align: justify;">Hi, I'm Than Soe Aung, a data analyst with a strong background in
+					Computer Science and
+					proven experience in data collection, preparation, analysis, and visualization.
+					Proficient in Python, SQL, Advanced Excel, and Power BI, I've led data-intensive
+					projects, including POI field collections, automated data workflows, and database optimization,
+					consistently turning raw data into actionable insights and impactful dashboards.
+					I'm a results-oriented collaborator seeking to contribute my skills to a dynamic organization
+					committed to data-driven decisions.</p>
+				<h3 style="margin-bottom: 25px;">Skills & Expertise</h3>
+				<ul class="alt">
+					<li>Data Collection & Preparation</li>
+					<li>Data Analysis & Visualization</li>
+					<li>Database Management & Optimization</li>
+					<li>Cross-functional Collaboration</li>
+					<li>Advanced Excel & Power BI</li>
+					<li>Python & SQL Programming</li>
+					<li>Geospatial Analysis (QGIS)</li>
+					<li>Problem Solving & Strategic Thinking</li>
+				</ul>
+				<ul class="actions">
+					<li><a href="#one" class="button scrolly">Learn more</a></li>
+					<li><a href="cv-view.html" class="button primary">View CV</a></li>
+				</ul>
+			</div>
+		</section>
+
+		<!-- One -->
+		<section id="one" class="wrapper style2 spotlights">
+			<section>
+				<a href="#" class="image"><img src="images/pic01.jpg" alt="" data-position="center center" /></a>
+				<div class="content">
+					<div class="inner">
+						<h2>POI Data Collection</h2>
+						<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies
+							erat malesuada quis. Aliquam dapibus.</p>
+						<ul class="actions">
+							<li><a href="project01.html" class="button">Learn more</a></li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<section>
+				<a href="#" class="image"><img src="images/pic02.jpg" alt="" data-position="top center" /></a>
+				<div class="content">
+					<div class="inner">
+						<h2>Map Your City(MYC) Campaign</h2>
+						<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies
+							erat malesuada quis. Aliquam dapibus.</p>
+						<ul class="actions">
+							<li><a href="project02.html" class="button">Learn more</a></li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<section>
+				<a href="#" class="image"><img src="images/pic01.jpg" alt="" data-position="25% 25%" /></a>
+				<div class="content">
+					<div class="inner">
+						<h2>Indoor Navigation</h2>
+						<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies
+							erat malesuada quis. Aliquam dapibus.</p>
+						<ul class="actions">
+							<li><a href="project03.html" class="button">Learn more</a></li>
+						</ul>
+					</div>
+				</div>
+			</section>
+		</section>
+
+		<!-- Two -->
+		<section id="two" class="wrapper style3 fade-up">
+			<div class="inner">
+				<h2>What we do</h2>
+				<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat
+					malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet
+					imperdiet est velit quis lorem.</p>
+				<div class="features">
+					<section>
+						<span class="icon solid major fa-code"></span>
+						<h3>Lorem ipsum amet</h3>
+						<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed
+							ultricies erat dapibus.</p>
+					</section>
+					<section>
+						<span class="icon solid major fa-lock"></span>
+						<h3>Aliquam sed nullam</h3>
+						<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed
+							ultricies erat dapibus.</p>
+					</section>
+					<section>
+						<span class="icon solid major fa-cog"></span>
+						<h3>Sed erat ullam corper</h3>
+						<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed
+							ultricies erat dapibus.</p>
+					</section>
+					<section>
+						<span class="icon solid major fa-desktop"></span>
+						<h3>Veroeros quis lorem</h3>
+						<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed
+							ultricies erat dapibus.</p>
+					</section>
+					<section>
+						<span class="icon solid major fa-link"></span>
+						<h3>Urna quis bibendum</h3>
+						<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed
+							ultricies erat dapibus.</p>
+					</section>
+					<section>
+						<span class="icon major fa-gem"></span>
+						<h3>Aliquam urna dapibus</h3>
+						<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed
+							ultricies erat dapibus.</p>
+					</section>
+				</div>
+				<ul class="actions">
+					<li><a href="generic.html" class="button">Learn more</a></li>
+				</ul>
+			</div>
+		</section>
+
+		<!-- Three -->
+		<section id="three" class="wrapper style1 fade-up">
+			<div class="inner">
+				<h2>Get in touch</h2>
+				<p>I'm available through the following channels:  LinkedIn, GitHub 
+					(where you can find my project repositories), and 
+					various job platforms including JobNet, MyWorld Careers, and SnapHunt.</p>
+				<div class="split style3">
+					<section class="contact-info">
+						<ul class="contact">
+							<li>
+								<h3>Email</h3>
+								<a href="mailto:thansoeaung2506@gmail.com">thansoeaung2506@gmail.com</a>
+							</li>
+							<li>
+								<h3>Phone</h3>
+								<span>+959 768489800</span>
+							</li>
+						</ul>
+					</section>
+					<section>
+						<div class="social-links">
+							<div>
+								<a href="https://github.com/thansoe-2506">
+									<img src="images/github.png" class="linked-image" alt="GitHub">
+								</a>
+								<a href="https://www.linkedin.com/in/thansoeaung2506/">
+									<img src="images/linkedin.png" class="linked-image" alt="LinkedIn">
+								</a>
+								<a href="https://www.jobnet.com.mm/job-seeker/dashboard/profile">
+									<img src="images/jobnet.png" class="linked-image" alt="JobNet">
+								</a>
+								<a href="https://myworld.com.mm/dashboard/profile">
+									<img src="images/myworld.png" class="linked-image" alt="MyWorld">
+								</a>
+								<a href="https://snaphunt.com/candidateDashboard">
+									<img src="images/snaphunt.png" class="linked-image" alt="SnapHunt">
+								</a>
+								<a href="https://www.gmail.com">
+									<img src="images/gmail.png" class="linked-image" alt="G-Mail">
+								</a>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+		</section>
+
+	</div>
+
+	<!-- Footer -->
+	<footer id="footer" class="wrapper style1-alt">
+		<div class="inner">
+			<ul class="menu">
+				<li>&copy; All rights reserved.</li>
+				<li>Design by: <a href="http://html5up.net">HTML5 UP</a></li>
+			</ul>
+		</div>
+	</footer>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
