@@ -1,0 +1,41 @@
+handling and solving daily feedbacks from various channels, slack, viber, Microsoft Dynamic 365, and TOUR Map(Tickets of Urgent Request Map Ops)
+Prepared detailed reports and delivered presentations to Program Managers (PgMs) and regional teams, showcasing project progress and actionable insights.
+Worked closely with cross-functional teams to understand data needs and improve map accuracy, 
+leading Focus Group Discussions (FGDs) with drivers and bikers to gather feedback.
+
+
+TOUR Map Request (Tickets of Urgent Request)
+I handled and solved the requests from other teams, grab food or grab taxi
+for grab food, we normally got the tickets like the creation of geofence based on high demand area to give incentives to bikers
+to prior this area in Yangon, Mandalay, Naypyidaw, Pathein and Mawlamyine
+same for the taxi also, give incentives to drivers when there is campaign that area is created by Map Ops
+Map Ops handled POI data, if other department want to know high booking POI, I use SQL to retrieved data and give to them
+
+training provide to Bikers and Drivers based on the projects, 
+I provide POI specifications training to bikers and drivers for the MYC campaign to maintain quality of POI and sharing about some tips, 
+about incentives, how to use the collection tools, etc
+I provide Map Data training to drivers, cuz we have a channel with grab taxi drivers, they can submit the map related issues in this channels
+I share some information about Open Street Map(OSM) to them, so they know more about much and maintain the quality of each feedbacks
+also I give training to juniors about OpenStreetMap(OSM), POI Specifications, Map Data, QGis, etc...
+
+completed projects
+POI collection in grab food expension cities(Pathein and Mawlamyine)
+collect POI in those cities with 7 promoters, I managed them via online to hit their daily and weekly targets of collection
+collected over 36,000 POI points in both cities within three months, while the data collecting process, clean the data, quality control the data
+and injected data to database by weekly
+
+POI Translation
+I translated over 15,000 POI Sample data from English to Burmese, to help to the engineering team to create the translation model
+in this projects, I upgraded my English and Burmsese languages skill, usages of Advanced Excel, creating automation scripts with python
+and reporting to engineering team about the translation process, blockers by weekly 
+
+OSM Map Maintainance Mandalay
+I managed the OSM Map Maintainane Mandalay Project, starting from budget quotations request to manager and end with data injection
+I connected three bikers in Mandalay and provide training to them how to check and collect the Map Data on ground 
+improved the Map Data Accurancy after the projects
+
+Indoor Navigation
+I managed indoor navigation projects, from initial negotiations with airport 
+and Aung Mingalar Highway Station authorities, through field data collection 
+and data injection, to successful launch in the Grab application. already request to the junction shopping mall group to make indoor navigation in 
+shopping mall and similarity with indoor navigation, currently working on shwedagon pagoda, yangon zoo, called outdoor navigation
